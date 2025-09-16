@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Tools Accordion</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .accordion {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+
+  .accordion-header {
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+
+  .accordion-header:hover {
+    background-color: #0056b3;
+  }
+
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #f9f9f9;
+    padding: 0 20px;
+  }
+
+  .accordion-content p {
+    padding: 15px 0;
+    margin: 0;
+  }
+
+  .accordion.active .accordion-content {
+    max-height: 200px; /* adjust based on content length */
+  }
+</style>
+</head>
+<body>
+
+<h1>Top 10 Free/Freemium AI Tools</h1>
+
+<div class="accordion">
+  <div class="accordion-header">1. ChatGPT</div>
+  <div class="accordion-content">
+    <p>AI-powered conversational assistant by OpenAI for text generation and queries.</p>
+  </div>
+</div>
+
+<div class="accordion">
+  <div class="accordion-header">2. DALL·E</div>
+  <div class="accordion-content">
+    <p>Generates AI images from text prompts, including variations and edits.</p>
+  </div>
+</div>
+
+<div class="accordion">
+  <div class="accordion-header">3. Canva AI</div>
+  <div class="accordion-content">
+    <p>AI design assistant for crea
